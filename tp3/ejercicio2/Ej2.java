@@ -4,12 +4,13 @@
 Utiliza una serie de if-else if-else para clasificar la calificación en categorías como "Aprobado", "Reprobado",
 "Sobresaliente", etc. Define tus propios rangos
 */
+
 package ejercicio2;
 
 import java.util.Scanner;
 
 public class Ej2 {
-   
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -33,4 +34,5 @@ public class Ej2 {
         
         scanner.close();
     }
+    
 }

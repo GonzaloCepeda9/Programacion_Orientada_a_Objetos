@@ -31,5 +31,5 @@ public class Ej3 {
         
         scanner.close();
     }
-
+        
 }

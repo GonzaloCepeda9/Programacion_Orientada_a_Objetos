@@ -2,18 +2,13 @@ package ejercicio4;
 
 public class MetodosArreglo {
 
-          
-        // public → Es un modificador de acceso, y significa que ese método puede ser llamado desde cualquier parte del programa.                      
-        // static → Significa que el método pertenece a la clase y no a una instancia.
-            // Si NO fuera static, tendríamos que crear un objeto de MetodosArreglo para poder usar ese método que estamos creando.
-            //Pero como es static, podés llamarlo directamente así: MetodosArreglo.contarNumeros(...).
-
-
-    public static int contarNumeros(int[] array) {      // Estas "funciones" que estoy creando, también se llaman métodos, porque están dentro de una clase.
+    // Contar números >> Devuelve la cantidad de números en el array
+    public static int contarNumeros(int[] array) {
         return array.length;
     }
 
-    public static int calcularMayor(int[] array) {      // (int[] array) el int[] significa que es un arreglo de enteros. El array es el nombre que le vamos a dar al arreglo.
+    // Calcular mayor >> Devuelve el mayor número del array
+    public static int calcularMayor(int[] array) {
         int mayor = array[0];
 
         for (int i = 1; i < array.length; i++) {
@@ -24,6 +19,7 @@ public class MetodosArreglo {
         return mayor;
     }
 
+    // Calcular promedio >> Devuelve el promedio de los números del array
     public static double calcularPromedio(int[] array) {
         int suma = 0;
         double promedio = 0;
@@ -32,11 +28,12 @@ public class MetodosArreglo {
             suma += array[i];
         }
 
-        promedio = (double) suma / array.length;        // Se agrega el (double) para indicar que el resultado de la división debe a ser un decimal.
+        promedio = (double) suma / array.length;
 
         return promedio;
     }
 
+    // Ordenar de mayor a menor y de menor a mayor
     public static void ordenarMayorAMenor(int[] array) {
         int aux;
         for (int i = 0; i < array.length -1; i++) {
@@ -50,6 +47,8 @@ public class MetodosArreglo {
         }
     }
 
+
+    // Ordenar de menor a mayor
     public static void ordenarMenorAMayor(int[] array) {
         int aux;
         for (int i = 0; i < array.length -1; i++) {
@@ -62,4 +61,5 @@ public class MetodosArreglo {
             }
         }
     }
+
 }

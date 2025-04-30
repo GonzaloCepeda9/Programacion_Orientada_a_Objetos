@@ -1,3 +1,15 @@
+/*
+4. Considere lo siguiente:
+    public class ArrayEntero{
+        private int[] numeros = {4,2,3,8,1};
+    }
+Escriba métodos que devuelvan:
+• Cuantos números hay en el array números
+• Cual es el mayor.
+• Cual es el promedio
+• Los números ordenados de menor a mayor y a la inversa.
+ */
+
 package ejercicio4;
 
 import java.util.Arrays;
@@ -23,4 +35,5 @@ public class Ej4 {
         System.out.println("Array ordenado de menor a mayor: " + Arrays.toString(numeros) + ".");
     
     }
+
 }

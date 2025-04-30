@@ -7,19 +7,18 @@ package ejercicio1;
 import java.util.Scanner;
 
 public class Ej1 {
-
    
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Ingrese un número positivo para multiplicar, o un número negativo para sumar los siguiente dos números: ");
+        System.out.println("Ingrese un número positivo para realizar multiplicación, o un número negativo para realizar suma: ");
 
         int num1 = scanner.nextInt();
 
         System.out.println("Ingrese el primer número");
         int num2 = scanner.nextInt();
-        System.out.println("Ingrese el segundo1 número");
+        System.out.println("Ingrese el segundo número");
         int num3 = scanner.nextInt();
 
         int resultado;
@@ -34,4 +33,5 @@ public class Ej1 {
         
         scanner.close();
     }
+    
 }
