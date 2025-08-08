@@ -1,19 +1,19 @@
-## UADER - FCyT | Lic. en Sistemas de Información  
-## Programación Orientada a Objetos - Trabajo Práctico N°3 (Java)  
+# UADER - FCyT | Lic. en Sistemas de Información  
+# Programación Orientada a Objetos - Trabajo Práctico N°3 (Java)  
 
-# Profesores  
+## Profesores  
     - Ing. Adrián Tournour
     - Lic. Alejandro Perez
 
-# Integrantes  
+## Integrantes  
     - Cepeda, Gonzalo  
     - Hryhorezuk, Micaela 
     - Maidana, Alejandra
     - Rezzónico, Brisa  
     - Rodríguez, Paula  
 
-# Estructura  
+## Estructura  
     Cada package contiene las clases necesarias para resolver cada ejercicio correspondiente al trabajo práctico.
 
-# Fecha de entrega:
+## Fecha de entrega:
     30/04/2025
